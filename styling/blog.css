@@ -1,0 +1,136 @@
+.blog-h1{
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+
+}
+.blog-p{
+    font-weight: 100;
+    font-size: 20px; 
+    font-family: system-ui;
+    margin: 8px 218px;
+}
+
+
+.div-card{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       height: 672px;
+     
+}
+
+.card{
+    
+    box-sizing: border-box;
+    background-color: white;
+    width: 445px;
+    margin-bottom: 10px;
+    margin-left: 21px;
+}
+
+.card-h1{
+font-family: system-ui;
+font-weight: 400;
+margin: 0px;
+ padding-top: 10px;
+}
+
+.card-p{
+    font-family: system-ui;
+    font-weight: 100;   
+    
+}
+
+.img-card{
+    height: 630px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.details{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    height: 300px;
+}
+
+.fa-user-circle{
+    font-size: 33px;
+    color: darkslategray;
+    padding-right: 9px;
+}
+.user-div{
+display: flex;
+color: black;
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: ui-monospace;
+    position: relative;
+    
+}
+.col p{
+margin: 0px;
+}
+.fa-ellipsis-v{
+    margin-left: auto;
+    font-size: 18px;
+    color: gray;
+}
+.footer{
+    display: flex;
+    font-size: 13px;
+    color: darkslategray;
+    border-top: 1px solid lightgray;
+    margin-top: auto;
+}
+
+.footer p:hover{
+    color: lightslategray;
+}
+
+.fa-heart{
+    font-size: 17px;
+    display: flex;
+    color: darkslategray;
+    cursor: pointer;
+}
+
+.fa-heart.visible{
+    color: red;
+}
+.count.visible{
+    display: initial;
+    color: black;
+}
+.count{
+  display: none;
+}
+span{
+    margin-right: 7px;
+}
+.count-div{
+    display: flex;
+    margin-left: auto;
+    margin-top: 13px;  
+}
+
+.box{
+    padding: 13px 39px;
+    position: absolute;
+    font-size: 15px;
+    font-family: ui-serif;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(21 39 102 / 20%);
+    right: 7px;
+    top: 10px;
+    display: none;
+}
+
+.box.visible{
+    display: flex;
+}

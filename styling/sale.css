@@ -1,0 +1,64 @@
+.sale-page-h1{
+        text-align: center;
+        font-family: system-ui;
+        font-size: 40px;
+        font-weight: 400;
+        color:black
+}
+
+.sale-div-card{
+    display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin-left: 60px;
+}
+
+.sale-page-card {
+    background-color:white;
+    width: 333px;
+    position: relative;
+}
+.sale-page-card:hover .sale-card-span  {
+    display: flex;
+}
+
+.sale-page-card img{
+    height: 353px;
+    width: 332px;
+    margin-right: 940px
+}
+
+.sale-page-card h1{
+    margin: 0px;
+    font-family: system-ui;
+    font-size: 17px;
+    font-weight: 400;
+}
+.sale-page-card p{
+    margin: 0px;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.02px;
+    margin-bottom: 35px;
+}
+  
+  .sale-card-span{
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 338px;
+    top:318px;
+    height: 40px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .sale-span{
+    position: absolute;
+    background-color: darkslategray;
+    color: white;
+    top: -1px;
+    padding: 6px 22px;
+
+}

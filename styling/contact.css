@@ -1,0 +1,100 @@
+.img {
+  height: 506px;
+  width: 409px;
+  margin-left: 117px;
+  margin-top: 68px;
+}
+
+.h1 {
+  margin-left: 579px;
+  margin-top: -423px;
+  font-size: 75px;
+  font-family: 300px;
+  font-family: system-ui;
+  font-weight: 400;
+}
+.h3-1 {
+  margin-left: 611px;
+}
+
+.p1 {
+  margin-left: 605px;
+}
+
+.h3-2 {
+  margin-left: 833px;
+  margin-top: -146px;
+}
+.p2 {
+  margin-left: 829px;
+}
+.parallax {
+  background-image: url("../img/contact.jpg");
+  height: 668px;
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-top: 314px;
+}
+
+.content {
+  height: 544px;
+  width: 554px;
+  background-color: lightgray;
+  padding: 46px;
+  font-family: system-ui;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 78px;
+}
+.parallax-h1 {
+  font-weight: 400;
+  font-size: 47px;
+  width: 470px;
+  font-family: system-ui;
+}
+
+.input1 {
+  background: transparent;
+  border: 0.25px solid gray;
+  height: 35px;
+}
+
+.div-class {
+  height: 40px;
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
+
+.label1 {
+  width:175px;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+textarea{
+background: transparent;
+height: 113px;
+width: 343px;
+display: flex;
+}
+
+button{
+    background-color: darkslategray;
+    padding: 10px 29px;
+    margin-top: 26px;
+    color:white;
+
+}
+.lastimg{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 193px;
+    margin-left: 379px;
+    width: 604px;
+    height: 656px;
+}

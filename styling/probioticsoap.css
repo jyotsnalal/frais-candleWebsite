@@ -1,0 +1,59 @@
+.heading {
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 90px;
+  }
+
+  .paragraph{
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 400;
+    margin:-13px
+  }
+
+  .card-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    height: 372px;
+    width: 355px;
+    margin-top: 86px;
+    position: relative;
+  }
+  .card:hover .card-span  {
+    display: flex;
+  }
+  
+  
+  img {
+    height: 353px;
+    width: 332px;
+  }
+  h2 {
+    text-align: left;
+    font-family: system-ui;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  .span-class {
+    position: relative;
+    background-color: darkslategray;
+    color: white;
+    top: -406px;
+    padding: 8px 22px
+  }
+  .card-span{
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 338px;
+    top:318px;
+    height: 40px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
